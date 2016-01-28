@@ -16,7 +16,8 @@
   </js-module>
 
   <platform name="android">
-    <dependency id="com.google.playservices" />
+    <!-- <dependency id="com.google.playservices" /> -->
+    <framework src="com.google.android.gms:play-services-plus:+" custom="true"/>
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Hello">
